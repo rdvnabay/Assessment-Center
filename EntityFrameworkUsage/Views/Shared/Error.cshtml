@@ -1,0 +1,15 @@
+﻿@model Exception
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h2>Exception Message: @Model.Message</h2>
+    </hgroup>
+    <p class="bg-danger">Stack Trace:  @Model.StackTrace</p>
+</body>
+</html>

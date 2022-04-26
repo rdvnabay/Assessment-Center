@@ -1,0 +1,73 @@
+﻿@using AssessmentLibrary;
+@using TimeComplexity.Models;
+
+@model PaginatedList<Account>
+
+@{
+    ViewBag.Title = "Home Page";
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+    var perPage = ViewBag.queryPerPage;
+    var pagination = ViewBag.queryPagination;
+}
+
+<form action="/Home/Index" class="navbar-form navbar-left">
+    <div class="form-group">
+        <input type="text" name="search" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-default">Search</button>
+</form>
+
+@if (Model.Count <= 0)
+{
+    <div class="alert alert-warning">No records found matching your criteria</div>
+}
+
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Pin</th>
+                <th>Pan</th>
+                <th>Balance</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var account in Model)
+            {
+                <tr>
+                    <td>@account.Id</td>
+                    <td>@account.Pin</td>
+                    <td>@account.Pan</td>
+                    <td>@account.Balance</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <ul class="pagination">
+        <li>
+            <a href="@pagination=@(Model.CurrentPage-1)" class="btn btn-default @prevDisabled">
+                Previous
+            </a>
+        </li>
+        <li>
+            <a href="@pagination=@(Model.CurrentPage+1)" class="btn btn-default @nextDisabled">
+                Next
+            </a>
+        </li>
+    </ul>
+
+    <ul class="pagination pull-right">
+        <li><a href="@perPage=25">25</a></li>
+        <li><a href="@perPage=50">50</a></li>
+        <li><a href="@perPage=100">100</a></li>
+        <li><a href="@perPage=@(Model.Count*Model.TotalPages)">All</a></li>
+    </ul>
+    <div class="alert alert-info">Showing @Model.CurrentPage to @Model.PerPage of @Model.TotalPages entries </div>
+}
+
+
+

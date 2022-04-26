@@ -1,0 +1,5 @@
+﻿Use the MainWindow and show the WelcomePage.
+
+Implement a navigation between the pages: WelcomePage <-> MiddlePage <-> LastPage <-> WelcomePage
+
+Show the current system time at the top right corner in realtime (every second tick)

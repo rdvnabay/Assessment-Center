@@ -1,0 +1,20 @@
+﻿@using APIUsage.Models;
+@model BitCoin
+
+<h2>Current Price of Bitcoin</h2>
+<table class="sample-table table">
+    <tr>
+        <th>$</th>
+        <th>€</th>
+        <th>£</th>
+    </tr>
+    <tr>
+        <td id="usd">@Model.bpi.USD.rate</td>
+        <td id="eur">@Model.bpi.EUR.rate</td>
+        <td id="gbp">@Model.bpi.GBP.rate</td>
+    </tr>
+
+    @*Display the current price for dollar, euro & pound*@
+
+
+</table>

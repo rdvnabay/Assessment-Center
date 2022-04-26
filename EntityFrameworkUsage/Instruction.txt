@@ -1,0 +1,15 @@
+﻿1.) Setup the DatabaseContext in the DAL Directory
+
+2.) Enable migrations, and create the first one. Use a local sqlexpress and configure the connection in the web.config
+
+3.) Import the data in the HomeController/Import. First you have to write the repository method.
+
+4.) Follow the instructions in the HomeController comments
+4.1 Show a pagination list with customizable pagesize
+4.2 Make the list sortable for every object attribute
+4.3 Make the list searchable for id
+extra points: make it as fast and scalable as possible
+4.4 Make the objects from the index view editable & create an edit form view
+
+Inside the HomeController you find regions where you have space to code 
+

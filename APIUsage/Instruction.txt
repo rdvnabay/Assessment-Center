@@ -1,0 +1,12 @@
+﻿Use custom.js for your scripts
+1.) Use FirstTask view to display your results
+1.1 Display the data with ajax on button press without page reload & implement the GetData method
+1.2 Create a function to remove the columns with null data
+
+2.) Use SecondTask view to display your results
+2.1 Display the current price of bitcoins use https://www.coindesk.com/coindesk-api and lazyload the price of USD, Euro and pound inside the table of SecondTask view 
+2.2 Use the HttpClient class
+2.3 Write a function in custom.js where you refresh the current bitcoin price each minute without page reload 
+
+
+Inside the HomeController you find regions where you have space to code 

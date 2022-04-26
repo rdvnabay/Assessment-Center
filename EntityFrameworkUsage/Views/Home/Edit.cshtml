@@ -1,0 +1,29 @@
+﻿@using AssessmentLibrary;
+
+@model Account
+
+<br />
+<form action="/Home/Edit" method="post">
+    <input type="hidden" class="form-control" name="Id" value=@Model.Id>
+    <input type="hidden" class="form-control" name="HashData" value=@Model.HashData/>
+
+    <!-- Balance -->
+    <label class="">Balance</label>
+    <div class="form-group">
+        <input type="number" class="form-control" name="Balance" value=@Model.Balance>
+    </div>
+
+    <!-- Pin -->
+    <label class="">Pin</label>
+    <div class="form-group">
+        <input type="number" class="form-control" name="Pin" value=@Model.Pin>
+    </div>
+
+    <!-- Pan -->
+    <label class="">Pan</label>
+    <div class="form-group">
+        <input type="text" class="form-control" name="Pan" value=@Model.Pan>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

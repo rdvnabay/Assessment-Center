@@ -1,0 +1,8 @@
+﻿1.)
+1.1 Find a specific amount of random objects in the fastest time possible and add them to List
+1.2 Implement the FindAccount method
+1.3 Create a view and list the results
+1.4 Create a pagination for 25, 50, 100 and ALL results per page (or custom input for page size 1-1000000)
+1.5 Implement your search method and define the time complexity ( O(n), O(1), O(n²) ... )
+
+Inside the HomeController you find regions where you have space to code 

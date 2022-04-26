@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeComplexity", "TimeComplexity\TimeComplexity.csproj", "{3B5186BB-082A-48C6-90FB-82A746731EAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkUsage", "EntityFrameworkUsage\EntityFrameworkUsage.csproj", "{898D3A5A-300B-42D1-93CE-CD2C72FBDC1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFNavigation", "WPFNavigation\WPFNavigation.csproj", "{18DDC861-2A42-4681-B3CE-0BFE04CD6BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AJAXUsage", "APIUsage\AJAXUsage.csproj", "{D97B419E-94E6-4B3A-B75C-3EC702B623F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B5186BB-082A-48C6-90FB-82A746731EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5186BB-082A-48C6-90FB-82A746731EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5186BB-082A-48C6-90FB-82A746731EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5186BB-082A-48C6-90FB-82A746731EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{898D3A5A-300B-42D1-93CE-CD2C72FBDC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898D3A5A-300B-42D1-93CE-CD2C72FBDC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898D3A5A-300B-42D1-93CE-CD2C72FBDC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898D3A5A-300B-42D1-93CE-CD2C72FBDC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18DDC861-2A42-4681-B3CE-0BFE04CD6BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18DDC861-2A42-4681-B3CE-0BFE04CD6BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18DDC861-2A42-4681-B3CE-0BFE04CD6BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18DDC861-2A42-4681-B3CE-0BFE04CD6BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97B419E-94E6-4B3A-B75C-3EC702B623F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97B419E-94E6-4B3A-B75C-3EC702B623F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97B419E-94E6-4B3A-B75C-3EC702B623F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97B419E-94E6-4B3A-B75C-3EC702B623F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64533109-5508-4276-83C8-BA1C16F6EB52}
+	EndGlobalSection
+EndGlobal
